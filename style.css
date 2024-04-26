@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tela {
+    background-color: #3a3b42;
+    width: 300px;
+    aspect-ratio: 400/490;
+    overflow: auto;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tela::-webkit-scrollbar {
+    display: none;
+}
+
+.tela--cronometro .exercicios {
+    display: none;
+}
+
+.tela--cronometro h1 {
+    visibility: hidden;
+}
+
+.tela--cronometro .cronometro {
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #3a3b42;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    transition: opacity .3s;
+}
+
+img {
+    display: block;
+}
+
+svg {
+    width: 75px;
+    fill: #7effb2;
+}
+
+.atividade {
+    font-weight: 600;
+}
+
+.exercicios {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.exercicio {
+    background-color: #175a2c;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tempo {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tempo p {
+    font-size: 40px;
+}
+
+.numero {
+    width: 55px;
+}
+
+.cronometro {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao {
+    width: 75px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.play,
+.pause {
+    background-color: #507F6A;
+}
+
+.pause {
+    display: none;
+}
+
+.iniciou .play {
+    display: none;
+}
+
+.iniciou .pause {
+    display: block;
+}
+
+.close {
+    background-color: #7b3f3f;
+}
+
+.voltar {
+    text-decoration: underline;
+    cursor: pointer;
+}
