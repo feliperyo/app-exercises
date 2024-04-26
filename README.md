@@ -2,7 +2,7 @@
   App Exercises</h1>
 <br>
 <h3 align="center">Projeto desenvolvido com HTML, CSS e JavaScript.</h3>
-<p align="center">O Relógio e o Cronômetro funcionam dinamicamente.</p>
+<p align="center">Relógio e Cronômetro.</p>
 <br>
 <br>
 
