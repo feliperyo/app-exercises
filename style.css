@@ -7,14 +7,29 @@
     font-family: "Montserrat", sans-serif;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-watch-img {
+    position: absolute;
+    width: 408px;
+    z-index: -1;
+}
+
 .tela {
     background-color: #3a3b42;
     width: 300px;
     aspect-ratio: 400/490;
     overflow: auto;
     padding: 20px;
-    padding-top: 0;
-    border-radius: 30px;
+    padding-top: 0px;
+    border-radius: 55px;
     display: flex;
     flex-direction: column;
     gap: 5px;
