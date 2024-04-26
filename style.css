@@ -29,7 +29,7 @@
 }
 
 .tela--cronometro h1 {
-    visibility: hidden;
+    opacity: 0;
 }
 
 .tela--cronometro .cronometro {
